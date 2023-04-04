@@ -1,0 +1,9 @@
+type Query {
+   """DONT IMPLEMENT"""
+    dummyMutation: Int
+}
+type Mutation {
+    """DONT IMPLEMENT"""
+    dummyMutation: Int
+}
+

@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  blocks_databases:
+    container_name: blocks_db
+    build:
+      context: ./docker
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: root
+    ports:
+      - "5443:5432"
+    volumes:
+      - blocks_postgres:/var/lib/postgresql/data
+volumes:
+  blocks_postgres:
+    name: blocks_postgres
