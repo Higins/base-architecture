@@ -37,3 +37,8 @@ password: admin
 ```bash
 docker-compose up
 ```
+
+
+#### Architecture
+
+https://github.com/bxcodec/go-clean-arch
